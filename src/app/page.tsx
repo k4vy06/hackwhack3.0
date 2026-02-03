@@ -41,8 +41,8 @@ export default function LandingPage() {
                         <Image
                             src="/logos/sbjain_logo.png"
                             alt="S.B. Jain Logo"
-                            width={160}
-                            height={80}
+                            width={150}
+                            height={112}
                             className="h-14 w-auto object-contain sm:h-16"
                             priority
                         />
@@ -65,8 +65,8 @@ export default function LandingPage() {
                         <Image
                             src="/logos/suigeneris_logo.png"
                             alt="Forum Sui Generis Logo"
-                            width={80}
-                            height={80}
+                            width={150}
+                            height={112}
                             className="h-14 w-auto object-contain sm:h-16"
                             priority
                         />
