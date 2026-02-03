@@ -43,7 +43,7 @@ export default function LandingPage() {
                             alt="S.B. Jain Logo"
                             width={150}
                             height={112}
-                            className="h-14 w-auto object-contain sm:h-16"
+                            className="h-20 w-auto object-contain sm:h-24"
                             priority
                         />
                     </div>
@@ -67,7 +67,7 @@ export default function LandingPage() {
                             alt="Forum Sui Generis Logo"
                             width={150}
                             height={112}
-                            className="h-14 w-auto object-contain sm:h-16"
+                            className="h-20 w-auto object-contain sm:h-24"
                             priority
                         />
                     </div>
@@ -136,7 +136,7 @@ export default function LandingPage() {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 0.7, duration: 0.5 }}
                         >
-                            <a href="https://www.instagram.com/suigeneris_official_?igsh=aDcxYXNyM2U3OWQ2" target="_blank" rel="noopener noreferrer">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeU8oiXvMTMWfUKgZkgm7Wk4M7OZ8r-HB8mO3Rkio3jwaVpFQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
                                 <Button size="xl" variant="glow" className="group">
                                     Register Now
                                     <ChevronRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
