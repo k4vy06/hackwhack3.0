@@ -37,25 +37,37 @@ export default function LandingPage() {
             <nav className="relative z-50 transition-colors duration-300 w-full">
                 <div className="relative mx-auto flex h-24 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
                     {/* Left Logo - SB Jain */}
-                    <div className="flex items-center">
+                    <div className="flex-1 flex justify-start">
                         <Image
                             src="/logos/sbjain_logo.png"
                             alt="S.B. Jain Logo"
                             width={160}
                             height={80}
-                            className="h-16 w-auto object-contain"
+                            className="h-14 w-auto object-contain sm:h-16"
+                            priority
+                        />
+                    </div>
+
+                    {/* Middle Logo - Hack Whack */}
+                    <div className="flex-1 flex justify-center">
+                        <Image
+                            src="/logo.png"
+                            alt="Hack Whack 3.0 Logo"
+                            width={150}
+                            height={112}
+                            className="h-20 w-auto object-contain sm:h-24"
                             priority
                         />
                     </div>
 
                     {/* Right Logo - Sui Generis */}
-                    <div className="flex items-center">
+                    <div className="flex-1 flex justify-end">
                         <Image
                             src="/logos/suigeneris_logo.png"
                             alt="Forum Sui Generis Logo"
                             width={80}
                             height={80}
-                            className="h-16 w-auto object-contain"
+                            className="h-14 w-auto object-contain sm:h-16"
                             priority
                         />
                     </div>
