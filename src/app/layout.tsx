@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "Hack Whack 3.0 | Innovate • Build • Compete",
-    description: "24 Hour College Hackathon organized by CSE Department & Forum Suigeneris. QR Based Entry, Real-time Tracking, and Team Registration.",
+    description: "24 Hour College Hackathon organized by CSE Department & Forum Suigeneris. Team Registration.",
     keywords: ["hackathon", "coding", "competition", "college", "CSE", "technology"],
     authors: [{ name: "Forum Suigeneris" }],
     openGraph: {

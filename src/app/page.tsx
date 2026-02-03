@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "motion/react";
-import { Clock, QrCode, Users, ChevronRight, Sparkles } from "lucide-react";
+import { Clock, Users, ChevronRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GlowingCard } from "@/components/ui/glowing-effect";
 import { HeroGlass } from "@/components/ui/glassmorphism-card";
@@ -17,11 +17,6 @@ const features = [
         icon: Clock,
         title: "24 Hour Hackathon",
         description: "Non-stop coding marathon to build innovative solutions",
-    },
-    {
-        icon: QrCode,
-        title: "QR Based Entry",
-        description: "Seamless check-in with unique QR codes for each team",
     },
     {
         icon: Users,
