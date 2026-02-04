@@ -39,11 +39,11 @@ export default function LandingPage() {
                     {/* Left Logo - SB Jain */}
                     <div className="flex-1 flex justify-start">
                         <Image
-                            src="/logos/sbjain_logo.png"
+                            src="/logos/3.png"
                             alt="S.B. Jain Logo"
-                            width={150}
-                            height={112}
-                            className="h-20 w-auto object-contain sm:h-24"
+                            width={200}
+                            height={150}
+                            className="h-28 w-auto object-contain sm:h-32"
                             priority
                         />
                     </div>
@@ -53,21 +53,21 @@ export default function LandingPage() {
                         <Image
                             src="/logo.png"
                             alt="Hack Whack 3.0 Logo"
-                            width={150}
-                            height={112}
-                            className="h-20 w-auto object-contain sm:h-24"
+                            width={200}
+                            height={150}
+                            className="h-28 w-auto object-contain sm:h-32"
                             priority
                         />
                     </div>
 
                     {/* Right Logo - Sui Generis */}
-                    <div className="flex-1 flex justify-end">
+                    <div className="flex-1 flex justify-center sm:justify-end sm:pr-15">
                         <Image
                             src="/logos/suigeneris_logo.png"
                             alt="Forum Sui Generis Logo"
-                            width={150}
-                            height={112}
-                            className="h-20 w-auto object-contain sm:h-24"
+                            width={50}
+                            height={50}
+                            // className="h-28 w-auto object-contain sm:h-32"
                             priority
                         />
                     </div>
